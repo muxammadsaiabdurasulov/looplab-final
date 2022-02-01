@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    opacity: 0.8;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* MAIN */
+#hero {
+    min-height: 700px;
+    background-image: url('../images/home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-inner {
+    padding-top: 150px;
+}
+
+#hero .fas {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#hero form {
+    opacity: 0.8;
+    border-radius: 0.25rem;
+}
+
+#hero form input {
+    font-size: 1.1rem
+}
+
+.explore-part {
+    background-color: #323335;
+}
+
+#explore-section .fas {
+    color: #fff;
+    background-color: #323335;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#create-section .fas {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #343a40;
+}
+
+
+/* MEDIA */
+@media (max-width: 992px){
+
+}
